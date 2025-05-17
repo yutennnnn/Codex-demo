@@ -1,0 +1,12 @@
+{
+  "name": "codex-demo",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "generate": "node convert.js",
+    "test": "node tests/convert.test.py"
+  },
+  "devDependencies": {
+    "vitest": "*"
+  }
+}
